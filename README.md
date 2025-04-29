@@ -1,6 +1,6 @@
-# High-dimensional disease risk score for dealing with residual confounding bias in estimating treatment effects with a survival outcome
+# High-dimensional propensity score analysis with a survival outcome
 
 ## R scripts
 * _0_datagen_: Generating a survival outcome with a binary exposure
-* _1_empirical_covariates_: Selecting empirical covariates 
-* _2_analysis_: Traditional, hdPS, and hdDRS analysis
+* _1_empirical_covariates_: Selecting empirical covariates using Bross formula, Cox-LASSO and random survival forest
+* _2_analysis_: Traditional and hdPS analysis
